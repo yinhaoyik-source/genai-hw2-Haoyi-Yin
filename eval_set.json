@@ -1,0 +1,10 @@
+[
+  {
+    "input": "Customer asks for refund",
+    "expected": "Polite refund response"
+  },
+  {
+    "input": "Customer angry about delay",
+    "expected": "Apology + explanation"
+  }
+]
