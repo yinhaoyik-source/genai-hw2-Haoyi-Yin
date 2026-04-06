@@ -13,4 +13,4 @@ Customer messages describing issues such as damaged products, late deliveries, o
 A clear, polite, and professional email response that addresses the customer’s issue.
 
 ## Value
-This task is valuable to automate because it is high-volume and repetitive, requires consistent tone, and saves time for human agents while allowing them to focus on more complex cases.
+This task is valuable to automate because it is high-volume and repetitive, requires a consistent tone, and saves time for human agents while allowing them to focus on more complex cases.
