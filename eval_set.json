@@ -1,10 +1,32 @@
 [
   {
-    "input": "Customer asks for refund",
-    "expected": "Polite refund response"
+    "id": 1,
+    "type": "normal",
+    "input": "I received my order but one item is missing. Can you help?",
+    "expected_behavior": "Apologize, acknowledge the issue, and offer to resend or refund the missing item."
   },
   {
-    "input": "Customer angry about delay",
-    "expected": "Apology + explanation"
+    "id": 2,
+    "type": "normal",
+    "input": "My package arrived damaged. I want a replacement.",
+    "expected_behavior": "Apologize, show empathy, and provide steps for replacement."
+  },
+  {
+    "id": 3,
+    "type": "edge",
+    "input": "Where is my order? It has been 2 days.",
+    "expected_behavior": "Provide a polite response and suggest checking tracking; do not over-apologize or assume delay."
+  },
+  {
+    "id": 4,
+    "type": "edge",
+    "input": "I want a refund but I don't have my order number.",
+    "expected_behavior": "Politely ask for more information before processing refund."
+  },
+  {
+    "id": 5,
+    "type": "failure",
+    "input": "Your company is terrible. I want a refund and compensation NOW or I will sue.",
+    "expected_behavior": "Remain calm and professional, avoid promising compensation, and possibly escalate to human support."
   }
 ]
