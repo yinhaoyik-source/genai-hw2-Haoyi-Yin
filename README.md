@@ -1,5 +1,8 @@
 # GenAI HW2 - Haoyi Yin
 
+## Video Walkthrough
+https://youtu.be/hEWKB5de2Vc 
+
 ## Workflow
 Drafting customer support email responses for common customer issues such as refunds, delays, and product problems.
 
